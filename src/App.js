@@ -4,11 +4,16 @@ import './App.css';
 
 function App() {
   return (
-    <>
-      <h1>Olá mundo!!!!</h1>
-      <img src={logo} alt="logo"/>
-     
-    </>
+    <main>
+      <section className="secLogo">
+        <img src={logo} alt="logo" className="logo"/>
+      </section>
+      <section className="secFormulario">
+        <div className="formulario">
+
+        </div>
+      </section>
+    </main>
   );
 }
 

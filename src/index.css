@@ -10,6 +10,31 @@ body {
   background-color: #00583C;
 }
 
-h1{
-  font-weight: 200px;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secLogo {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.logo {
+  width: 70vh;
+}
+
+.secFormulario {
+  width: 150vh;
+  height: 95vh;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
