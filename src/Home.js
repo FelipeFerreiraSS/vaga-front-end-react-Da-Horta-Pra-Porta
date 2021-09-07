@@ -1,13 +1,12 @@
 import React from "react";
-import logo from "./images/logo.png"
-import './App.css';
+import Logo from "./components/Logo";
 
-function App() {
+import './index';
+
+function Home() {
   return (
     <main>
-      <section className="secLogo">
-        <img src={logo} alt="logo" className="logo"/>
-      </section>
+      <Logo/>
       <section className="secFormulario">
         <div className="formulario">
           <h1>Login</h1>
@@ -25,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
