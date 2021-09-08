@@ -1,8 +1,8 @@
 import React from "react";
 
-import Home from './Home';
-import RedefinirSenha from './RedefinirSenha'
-import Cadastro from './Cadastro'
+import Home from './pages/Home';
+import RedefinirSenha from './pages/RedefinirSenha'
+import Cadastro from './pages/Cadastro'
 
 import { Switch, Route } from 'react-router-dom'
 

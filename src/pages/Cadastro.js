@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "./components/Logo";
+import Logo from "../components/Logo";
 
-import { Main, Input, SectionFormulario, Titulo, Form, ButtonEntrar, ButtonCadastrar, Span } from './style'
+import { Main, Input, SectionFormulario, Titulo, Form, ButtonEntrar, ButtonCadastrar, Span } from '../style'
 
 function Cadastro(){
     return(
