@@ -17,7 +17,8 @@ function Home() {
             <ButtonEntrar>Entrar</ButtonEntrar>
             <Link  className="link" to="/RedefinirSenha">Esqueceu a senha?</Link>
             <Span></Span>
-            <ButtonCadastrar>Cadastrar</ButtonCadastrar>
+            <Link className="link" to="/Cadastro"><ButtonCadastrar>Cadastrar</ButtonCadastrar></Link>
+            
           </Form>
         </div>
       </SectionFormulario>
