@@ -12,10 +12,10 @@ function Home() {
         <div className="formulario">
           <Titulo>Login</Titulo>
           <Form>
-            <Input placeholder="CPF"></Input>
-            <Input placeholder="Senha"></Input>
+            <Input placeholder="CPF" type="number"></Input>
+            <Input placeholder="Senha" type="password"></Input>
             <ButtonEntrar>Entrar</ButtonEntrar>
-            <Link  className="link" to="/RedefinirSenha">RedefinirSenha</Link>
+            <Link  className="link" to="/RedefinirSenha">Esqueceu a senha?</Link>
             <Span></Span>
             <ButtonCadastrar>Cadastrar</ButtonCadastrar>
           </Form>

@@ -13,10 +13,10 @@ function Cadastro(){
                 <div className="formulario">
                     <Titulo>Redefinir senha</Titulo>
                     <Form>
-                        <Input placeholder="CPF"></Input>
-                        <Input placeholder="Data de nascimento"></Input>
+                        <Input placeholder="CPF" type="number"></Input>
+                        <Input placeholder="Data de nascimento" type="date"></Input>
                         <ButtonEntrar>Redefinir senha</ButtonEntrar>
-                        <Link className="link" to="/RedefinirSenha">Cadastrar</Link>
+                        <Link className="link" to="">Cadastrar</Link>
                         <Span></Span>
                         <Link className="link" to="/"><ButtonCadastrar>Fazer login</ButtonCadastrar></Link>
                         
