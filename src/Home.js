@@ -1,26 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "./components/Logo";
 
-import './index';
+import { Main, Input, SectionFormulario, Titulo, Form, ButtonEntrar, ButtonCadastrar, Span } from './style'
 
 function Home() {
   return (
-    <main>
+    <Main>
       <Logo/>
-      <section className="secFormulario">
+      <SectionFormulario>
         <div className="formulario">
-          <h1>Login</h1>
-          <form>
-            <input placeholder="CPF"></input>
-            <input placeholder="Senha"></input>
-            <button className="entrar">Entrar</button>
-            Esqueceu a senha?
-            <span></span>
-            <button className="cadastrar">Cadastrar</button>
-          </form>
+          <Titulo>Login</Titulo>
+          <Form>
+            <Input placeholder="CPF"></Input>
+            <Input placeholder="Senha"></Input>
+            <ButtonEntrar>Entrar</ButtonEntrar>
+            <Link to="/RedefinirSenha">RedefinirSenha</Link>
+            <Span></Span>
+            <ButtonCadastrar>Cadastrar</ButtonCadastrar>
+          </Form>
         </div>
-      </section>
-    </main>
+      </SectionFormulario>
+    </Main>
   );
 }
 
