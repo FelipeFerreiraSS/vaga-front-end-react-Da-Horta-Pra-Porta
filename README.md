@@ -40,7 +40,7 @@
 
 ## :dart: About ##
 
-Projeto criado para vaga de desenvolvedor Front-End React na empresa Da Horta Pra Porta. Clone da página de login, cadastro e esqueci senha da empresa. Usando React, Styled Components e React Router
+Projeto criado para vaga de desenvolvedor Front-End React na empresa Da Horta Pra Porta. Clone da página de login, cadastro e esqueci senha da empresa. Usando React, Styled Components e React Router. </br> Usei a extensão CSS Peeper para pegar as imagens do projeto base. 
 
 ## :rocket: Technologies ##
 
