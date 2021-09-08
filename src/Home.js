@@ -15,7 +15,7 @@ function Home() {
             <Input placeholder="CPF"></Input>
             <Input placeholder="Senha"></Input>
             <ButtonEntrar>Entrar</ButtonEntrar>
-            <Link to="/RedefinirSenha">RedefinirSenha</Link>
+            <Link  className="link" to="/RedefinirSenha">RedefinirSenha</Link>
             <Span></Span>
             <ButtonCadastrar>Cadastrar</ButtonCadastrar>
           </Form>
